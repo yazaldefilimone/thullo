@@ -6,7 +6,6 @@ export interface ICreateUserUseCase {
 }
 
 export namespace ICreateUserUseCase {
-  type OutputField = UnexpectedError | EmailInUseError | InvalidCredentialsError;
   export type Input = UserStore;
-  export type Output = Promise<{ id: string } | OutputField>;
+  export type Output = Promise<{ id: string; token: string } | Error>;
 }
