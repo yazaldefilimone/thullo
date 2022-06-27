@@ -1,0 +1,14 @@
+[
+    {
+        "find": "@main",
+        "replacement": "/home/yazaldefilimone/www/learnspace/thullo/src/main"
+    },
+    {
+        "find": "@",
+        "replacement": "/home/yazaldefilimone/www/learnspace/thullo/src"
+    },
+    {
+        "find": "@logs",
+        "replacement": "/home/yazaldefilimone/www/learnspace/thullo/src/logs"
+    }
+]
