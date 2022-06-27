@@ -13,7 +13,7 @@ export default defineConfig({
       depth: 1,
       createLog: false,
       logPath: 'src/logs',
-      createGlobalAlias: false,
+      createGlobalAlias: true,
       adjustDuplicates: true,
       useAbsolute: false,
       useIndexes: false,
