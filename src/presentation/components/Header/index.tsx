@@ -14,10 +14,13 @@ export const Header: FunctionComponent<HeaderProps> = () => {
           <a href="#">
             <img src={logo} alt="" />
           </a>
-          <div>
-            <span>Devchallenges Board</span>
+          <div className={styles.info}>
+            <span>Yazalde Filimone Board</span>
             <span className={styles.separate}></span>
-            <button>All board</button>
+            <button>
+              <i className="ri-grid-fill"></i>
+              All board
+            </button>
           </div>
         </div>
 
