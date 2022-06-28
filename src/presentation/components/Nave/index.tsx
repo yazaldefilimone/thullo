@@ -30,7 +30,10 @@ const Nave: FunctionComponent<NaveProps> = () => {
       </div>
 
       <div className={styles.menu}>
-        <button>Show Menu</button>
+        <button>
+          <i className="ri-more-fill"></i>
+          Show Menu
+        </button>
       </div>
     </nav>
   );
