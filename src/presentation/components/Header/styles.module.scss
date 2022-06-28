@@ -1,13 +1,18 @@
 .header {
+  width: 100%;
+}
+.nav {
+  width: 100%;
   display: flex;
   align-items: center;
   height: var(--header-height);
   justify-content: space-between;
+  padding: 2rem 1rem;
 }
 
 .profile__bg {
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
   overflow: hidden;
   border-radius: 50%;
   > img {
@@ -18,14 +23,30 @@
 .first__container {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  > button {
-    background: none;
-    border: none;
+  gap: 5rem;
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    span {
+      color: var(--title-color);
+      font-size: var(--h2-font-size);
+      font-weight: 500;
+      line-height: 27px;
+      letter-spacing: -0.035em;
+      text-align: left;
+    }
+    > button {
+      background: var(--gray-color);
+      border: none;
+      padding: 0.5rem;
+      border-radius: 0.4rem;
+      color: var(--text-color-light);
+    }
   }
 }
 .separate {
-  height: 1rem;
+  height: 1.5rem;
   width: 2px;
   background: #ccc;
 }
@@ -33,15 +54,20 @@
 .side__left {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
 }
 .left__container {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
-  background: #fff;
+  background: var(--gray-color);
+  border-radius: 0.3rem;
   padding: 0.5rem;
+
   > input {
     border: none;
     padding: none;
     outline: none;
+    width: 330px;
+    padding: 0.5rem;
   }
   > button {
     background: none;
