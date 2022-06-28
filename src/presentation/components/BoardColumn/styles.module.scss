@@ -1,0 +1,24 @@
+.column {
+  padding: 0.5rem;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  span {
+    color: var(--title-color);
+  }
+  > button {
+    > i {
+      font-size: 1.2rem;
+      color: var(--text-color);
+    }
+  }
+}
