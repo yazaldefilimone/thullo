@@ -1,0 +1,13 @@
+.board {
+  background-color: var(--input-color);
+  border-radius: 0.5rem;
+  padding: 0.61rem;
+  margin: 1rem 0px;
+  min-height: 700px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  > section {
+    // background-color: var(--first-color);
+  }
+}
